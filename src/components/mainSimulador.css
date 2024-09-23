@@ -1,0 +1,176 @@
+.containerGeneral{
+  margin-top: 20px;
+}
+
+/* Container del input del monto */
+.simuladorContainer_Card_inputMonto{
+  display: flex;
+  flex-direction: column;
+}
+
+.indexGreetins{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+/* Input del monto */
+.simuladorContainer_Card_inputMonto input{
+  font-size: 14px;
+  width: 100%;
+  align-self: center;
+}
+.maxWidth {
+  max-width: 950px;
+}
+
+/* styles.css */
+.selected-option {
+  font-weight: bold;
+}
+
+.simuladorContainer_card {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  border: 2px; /* Borde para que se vea el redondeo */
+  border-radius: 20px; /* Bordes redondeados con un radio de 10px */
+  padding: 32px; /* Espacio interno */
+  gap: 15px;
+  margin: 20px;
+}
+.simuladorContainer_Card_inputMonto {
+  
+  flex-direction: column;
+}
+/* Banner con el detalle del monto en cuotas */
+.simuladorContainer_cuotas {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.simuladorContainer_cuotas_detalle {
+  background-color: #f5f5f5;
+  border: 2px; /* Borde para que se vea el redondeo */
+  border-radius: 20px; /* Bordes redondeados con un radio de 10px */
+  padding: 20px; /* Espacio interno */
+  gap: 15px;
+  margin: 20px;
+}
+
+
+.containerGeneral {
+  display: flex;
+  flex-direction: column;
+}
+/* Query exclusivo para que el input no se rompa */
+@media (min-width: 300px) {
+/* Banner con el detalle del monto en cuotas */
+  .simuladorContainer_cuotas_detalle {
+    width: auto
+  }
+}
+
+.titulo {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+.titulo_input {
+  width: 120px;
+  background-color: #f5f5f5;
+}
+.simuladorContainer {
+  display: flex;
+  flex-direction: column;
+}
+.simuladorContainer {
+  flex-direction: column;
+}
+
+.simuladorContainer_card_detalle {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.simuladorContainer_Card_inputMonto {
+  display: flex;
+  gap: 15px;
+}
+.simuladorContainer_Card_inputMonto label {
+  /* Para que ocupe su espacio justo */
+  white-space: nowrap;
+}
+.simuladorContainer_card_detalle_titulo {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.selectContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.leyenda {
+  color: #777777;
+  margin-top: 8px;
+}
+.selectContainer button {
+  margin-top: 10px;
+}
+.recibis {
+  color: #4e358c;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+/* Estilos para pantallas de 768px y mayores */
+@media (min-width: 768px) {
+  .simuladorContainer_Card_inputMonto {
+    
+  
+  }
+  .simuladorContainer_card {
+    margin: 20px;
+  }
+  .titulo_input {
+    width: 150px;
+  }
+
+  /* .simuladorContainer_cuotas_detalle {
+    max-width: 90vw;
+  }  */
+}
+
+/* Estilos para pantallas de 1024px y mayores */
+@media (min-width: 1024px) {
+  .simuladorContainer {
+    /* display: flex; */
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+
+  }
+  .simuladorContainer_card {
+
+    padding: 40px; /* Espacio interno */
+    gap: 15px;
+    min-width: 27rem;
+    width: 25rem; /* ancho fijo */
+    margin: 0;
+  }
+
+  .simuladorContainer_cuotas_detalle {
+    /* margin: 20px; */
+    /* min-width: 46vw; */
+    margin: 20px 50vw;
+    width: 46vw;
+  }
+  .simuladorContainer_cuotas{
+    /* min-width: 46vw; */
+    align-self: center;
+  }
+}
