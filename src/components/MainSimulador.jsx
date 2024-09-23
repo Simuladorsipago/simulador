@@ -5,7 +5,6 @@ import "./mainSimulador.css";
 import { useState, useEffect } from "react";
 import calculoDetalle from "../utils/calculoDetalle";
 import {
-  feePayment,
   comisionesMedioPago,
   comisionesPorcuotas,
   comisionesPorAcreditacion,
