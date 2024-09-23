@@ -1,7 +1,7 @@
 //Comisiones según el medio de pago
 export const comisionesMedioPago = {
   1: 0.008, //Dinero en cuenta
-  2: 0.029, //Tarjeta de débito
+  2: 0.099, //Tarjeta de débito
   3: 0.049, //Tarjeta de crédito
 }
 
