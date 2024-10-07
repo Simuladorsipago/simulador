@@ -61,14 +61,14 @@ export const paymentTypeOptions = {
 export const installmentsOptions = [
   
   { value: "1", label: "1 cuota"},
-  { value: "2", label: "3 cuotas" },
-  { value: "3", label: "6 cuotas" },
-  { value: "4", label: "9 cuotas" },
-  { value: "5", label: "12 cuotas" },
-  { value: "6", label: "Cuota Simple 3" },
-  { value: "7", label: "Cuota Simple 6" },
-  { value: "8", label: "Cuota simple 9" },
-  { value: "9", label: "Cuota simple 12" },
+  //{ value: "2", label: "3 cuotas" },
+  //{ value: "3", label: "6 cuotas" },
+  //{ value: "4", label: "9 cuotas" },
+  //{ value: "5", label: "12 cuotas" },
+  //{ value: "6", label: "Cuota Simple 3" },
+  //{ value: "7", label: "Cuota Simple 6" },
+  //{ value: "8", label: "Cuota simple 9" },
+  //{ value: "9", label: "Cuota simple 12" },
 ];
 
 //Opciones de plazo de acreditación
